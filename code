@@ -1,0 +1,190 @@
+Implementation
+
+                                       HTML,CSS,JS CODE
+(Cafe coffee day.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section Page</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Navigation bar styles */
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        nav ul li a:hover {
+            color: #f4a261;
+        }
+
+        /* Main content area *
+      .main-content {
+            padding: 20px;
+            text-align: center;
+            background-color: #f4f4f4;
+            min-height: 60vh;
+        }
+        .logo img { 
+            width: 50px;
+            height: auto;
+            margin-right: 10px;
+
+        }
+        font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      width: 300px;
+    }
+
+    .login-container h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+
+    .login-container input {
+      width: 80%;
+      padding: 10px;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .login-container button {
+      width: 80%;
+      padding: 10px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .login-container button:hover {
+      background: #0056b3;
+    }
+
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class ="logo">
+        <img src="logo.jpg" alt="logo">
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#home">HOT CLASSICS</a></li>
+            <li><a href="#about">ALL-TIME CHILLERS</a></li>
+            <li><a href="#services">ALL-TIME CHILLERS</a></li>
+            <li><a href="#contact">ALL-TIME DELIGHTS</a></li>
+            <li><a href="#sweet">SWEET TOOTH</a></li>
+            <li><a href="#nutritional">NUTRITIONAL INFO</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1> CAFE COFFEE DAY ONLINE BOOKING</h1>
+        <img src="C:\Users\user\Pictures\mobile-new-menu-cafe-coffee-day1.jpg" alt="cafe" width="1000" height="500"/>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+  <nav>
+        <ul>
+            <li><a href="hot classics.html">HOT CLASSICS</a></li>
+            <li><a href="all 1.html">ALL-TIME CHILLERS</a></li>
+            <li><a href="all 2.html">ALL-TIME CHILLERS</a></li>
+            <li><a href="all del ights.html">ALL-TIME DELIGHTS</a></li>
+            <li><a href="sweet.html">SWEET TOOTH</a></li>
+            <li><a href="nutritional info.html">NUTRITIONAL INFO</a></li>
+            <li><a href="login.html">LOGIN</a></li>
+        </ul>
+    </nav>
+    </footer>
+
+</body>
+</html>
+(Hot classics.html)
+     <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\HOT CLASSICS 1.jpg" alt="centered image" width="1000" height="1000"/></br>
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\HOT CLASSICS 2.jpg" width="1000" height="1000"/>
+         </div>
+(All time chillers.html)
+        <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\1st ALL TIME CHILLERS 1.jpg" alt="centered image" width="1000" height="1000"/></br>
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\1st ALL TIME CHILLERS 2.jpg" width="1000" height="1000"/>
+         </div>
+(All time chillers.html)
+          <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\2nd ALL TIME CHILLERS 1.jpg" alt="centered image" width="1000" height="1000"/></br>
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\2nd ALL TIME CHILLERS 2.jpg" width="1000" height="1000"/>
+         </div>
+(All time delights.html)
+       <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\ALL DAY DELIGHTS 1.jpg" alt="centered image" width="1000" height="1000"/></br>
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\ALL DAY DELIGHTS 2.jpg" width="1000" height="1000"/>
+         </div>
+(Sweet tooth.html)
+        <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\SWEET TOOTH X32 1.jpg" alt="centered image" width="1000" height="1000"/></br>
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\SWEET TOOTH X32 2.jpg" width="1000" height="1000"/>
+         </div>
+(Nutritional info.html)
+               <div class="content">
+           <img src="C:\Users\user\Desktop\cafe_coffee_1\FOOD nutritional info.jpg" alt="centered image" width="1000" height="1000"/></br>
+         </div>
+(login.html)
+         <div class="login-container">
+    <h2>Login</h2>
+    <form action="/login" method="post">
+      <input type="text" name="username" placeholder="Username" required />
+      <input type="password" name="password" placeholder="Password" required />
+      <button type="submit">Log In</button>
+    </form>
+  </div>	
+
